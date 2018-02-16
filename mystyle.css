@@ -1,0 +1,197 @@
+body
+{
+padding:0px;
+margin:0px;
+//background-color:grey;
+//background-image:url("blu.png");
+background-attachment:fixed;
+}
+#menu ul
+{
+background-color:red;
+padding:0px;
+margin:0px;
+list-style-type:none;
+padding:5px;
+text-align:center;
+
+}
+#menu ul li
+{
+display:inline;
+background-color:yellow;
+
+padding:3px;
+margin:0px;
+}
+#menu ul li a
+{
+background-color:#8E8E38;
+padding:3px;
+margin:0px;
+text-decoration:none;
+font-family:"Lucida Calligraphy";
+font-weight:bold;
+color:black;
+text-transform:uppercase;
+
+}
+#menu ul li a:hover
+{
+background-color:white;
+
+}
+
+
+
+.layout
+{
+display:block;
+width:100%;
+padding:1px;
+margin:0px;
+float:none;
+clear:both;
+color:yellow;
+}
+#header
+{
+font-family:"Comic Sans MS";
+height:200px;
+background-color:orange;
+color:red;
+text-align:left;
+background-repeat:no-repeat;
+background-position:left;
+background-size:100%;
+background-image:url("i8.png");
+}
+
+#menu
+{
+height:50px;
+padding-top:1px;
+background-color:green;
+padding-bottom:0px;
+background-repeat:repeat-x;
+
+}
+#nav
+{
+height:800px;
+//background-color:orange;
+background-image:url("tt.png");
+color:black;
+}
+#footer
+{
+display:block;
+height:60px;
+background-image:url("tt.png");
+//background-color:orange;
+
+font-family:"Lucida Calligraphy";
+text-align:center;
+}
+.cols
+{
+display:block;
+width:48%;
+height:99%;
+padding:3px;
+margin:0px;
+}
+
+#lc
+{
+//background-color:black;
+clear:left;
+float:left;
+font-weight:bold;
+color:black;
+//text-transform:uppercase;
+//word-spacing:10px;
+font-size:20;
+background-image:url("tt.png");
+font-family:"Comic Sans MS";
+
+}
+
+#rc
+{
+//background-color:green;
+clear:right;
+float:right;
+font-weight:bold;
+color:black;
+//text-transform:uppercase;
+//word-spacing:10px;
+font-size:20px;
+background-image:url("tt.png");
+font-family:"Comic Sans MS";
+background-size:100%;
+}
+
+.lc_cls
+{
+	display:block;
+		float:left;
+	//height:100px;
+	margin:1px;
+	//background-color:;
+}
+#lc1
+{
+	display:block;
+	width:320px;
+	height:500px;
+	margin:1px;
+	background-color:##ff00;	
+background-image:url("tt.png");
+	
+}
+
+#lc2
+{
+
+	width:225px;
+	height:500px;
+text-align:justify;
+//font-family:"Comic Sans MS";
+color:black;		
+float:left;
+	margin:2px;
+background-image:url("tt.png");
+	//background-color:black;
+}
+
+.rc-cols
+{
+display:block;
+float:left;
+//color:yellow;
+background-image:url("tt.png");
+margin:1px;
+font-family:"Comic Sans MS";
+}
+#rc1
+{
+display:block;
+width:460px;
+height:600px;
+
+}
+#rc2
+{
+display:block;
+width:316px;
+height:200px;
+float:left;
+}
+
+
+#footer a
+{
+background-color:green;
+//color:yellow;
+}
